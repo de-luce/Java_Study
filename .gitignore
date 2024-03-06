@@ -1,0 +1,21 @@
+# 项目排除路径
+/Java_Proxy/target/
+/Java_Spring/spring_01_ioc/target/
+/Java_Spring/spring_02_hellospring/target/
+/Java_Spring/spring_03_ioc2/target/
+/Java_Spring/spring_04_di/target/
+/Java_Spring/spring_05_autowired/target/
+/Java_Spring/spring_06_annotation/target/
+/Java_Spring/spring_07_appconfig/target/
+/Java_Spring/spring_08_aop/target/
+/Java_Spring/spring_09_mybatis/target/
+/Java_Spring/spring_10_transaction/target/
+/Java_SpringMVC/springMVC_01_servlet/target/
+/Java_SpringMVC/springMVC_02_hellospringMVC/target/
+/Java_SpringMVC/springMVC_03_annotation/target/
+/Java_SpringMVC/springMVC_04_controller/target/
+/Java_SpringMVC/springMVC_05_json/target/
+/Java_SpringMVC/springMVC_06_ajax/target/
+/Java_SpringMVC/springMVC_07_interceptor/target/
+/Java_Thread/target/
+/out/

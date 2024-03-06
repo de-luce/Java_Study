@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:c="http://www.springframework.org/schema/c"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <!--p命名空间注入，直接注入属性值,property-->
+    <bean id="user" class="com.deluce.pojo.User" p:name="deluce1" p:age="18"/>
+
+    <!--c命名空间注入，构造器注入，construct-args-->
+    <!--<bean id="user2" class="com.deluce.pojo.User" c:name="deluce2" c:age="18"/>-->
+</beans>

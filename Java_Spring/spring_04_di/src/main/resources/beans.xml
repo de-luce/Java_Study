@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="address" class="com.deluce.pojo.Address"/>
+    <bean id="student" class="com.deluce.pojo.Student">
+        <!--value-->
+        <property name="name" value="deluce"/>
+
+        <!--ref-->
+        <property name="address" ref="address"/>
+
+        <!--array-->
+        <property name="books">
+            <array>
+                <value>Java</value>
+                <value>Python</value>
+                <value>C++</value>
+            </array>
+        </property>
+
+        <!--list-->
+        <property name="hobbies">
+            <list>
+                <value>唱</value>
+                <value>跳</value>
+                <value>rap</value>
+                <value>篮球</value>
+            </list>
+        </property>
+
+        <!--map-->
+        <property name="card">
+            <map>
+                <entry key="学号" value="012345678"/>
+                <entry key="卡号" value="123456789"/>
+            </map>
+        </property>
+
+        <!--set-->
+        <property name="games">
+            <set>
+                <value>lol</value>
+                <value>csgo</value>
+            </set>
+        </property>
+
+        <!--null-->
+        <property name="wife">
+            <null/>
+        </property>
+
+        <!--properties-->
+        <property name="info">
+            <props>
+                <prop key="姓名">deluce</prop>
+                <prop key="性别">男</prop>
+            </props>
+        </property>
+    </bean>
+</beans>
