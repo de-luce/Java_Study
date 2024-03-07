@@ -14,6 +14,7 @@
         <module>Java_Proxy</module>
         <module>Java_Spring</module>
         <module>Java_Mybatis</module>
+        <module>Java_Vue</module>
         <module>Java_Spring/spring_01_ioc</module>
         <module>Java_Spring/spring_02_hellospring</module>
         <module>Java_Spring/spring_03_ioc2</module>
@@ -32,7 +33,7 @@
         <module>Java_SpringMVC/springMVC_05_json</module>
         <module>Java_SpringMVC/springMVC_06_ajax</module>
         <module>Java_SpringMVC/springMVC_07_interceptor</module>
-        <module>Java_Vue</module>
+        <module>Java_SpringBoot</module>
     </modules>
 
     <properties>

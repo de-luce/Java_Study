@@ -11,26 +11,27 @@
         <module name="springMVC_04_controller" />
         <module name="Java_Thread" />
         <module name="springMVC_02_hellospringMVC" />
-        <module name="springMVC_01_servlet" />
         <module name="spring_02_hellospring" />
         <module name="spring_06_annotation" />
         <module name="spring_07_appconfig" />
         <module name="Java_SE" />
-        <module name="spring_04_di" />
         <module name="Java_Mybatis" />
-        <module name="spring_01_ioc" />
-        <module name="Java_Spring" />
         <module name="spring_10_transaction" />
-        <module name="springMVC_07_interceptor" />
-        <module name="Java_Proxy" />
         <module name="spring_09_mybatis" />
-        <module name="springMVC_05_json" />
         <module name="spring_08_aop" />
         <module name="Java_Vue" />
         <module name="spring_05_autowired" />
+        <module name="springMVC_03_annotation" />
+        <module name="Java_SpringBoot" />
+        <module name="springMVC_01_servlet" />
+        <module name="spring_04_di" />
+        <module name="spring_01_ioc" />
+        <module name="Java_Spring" />
+        <module name="springMVC_07_interceptor" />
+        <module name="Java_Proxy" />
+        <module name="springMVC_05_json" />
         <module name="spring_03_ioc2" />
         <module name="springMVC_06_ajax" />
-        <module name="springMVC_03_annotation" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
